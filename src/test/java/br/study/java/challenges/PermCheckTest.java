@@ -2,6 +2,17 @@ package br.study.java.challenges;
 
 import junit.framework.TestCase;
 
+/**
+ *  A non-empty array A consisting of N integers is given.
+ * - N is an integer within the range [1..100,000];
+ * - each element of array A is an integer within the range [1..1,000,000,000].
+ * A permutation is a sequence containing each element from 1 to N once, and only once.
+ * 
+ * Codility
+ * https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+ * @author fabiana
+ *
+ */
 public class PermCheckTest extends TestCase{
 	
 	public void testArrayEmpty() {

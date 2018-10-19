@@ -13,7 +13,7 @@ import java.util.Arrays;
  * Codility
  * https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
  * 
- * @author fabiana
+ * @author fabiana.araujo
  *
  */
 public class PermCheck {
