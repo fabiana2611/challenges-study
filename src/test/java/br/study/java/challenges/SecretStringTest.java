@@ -55,6 +55,17 @@ public class SecretStringTest extends TestCase{
 		
 	}
 	
+	public void testFindSecretString2() {
+		
+		String secret = "amigo";
+		
+		Character[][] triplets1 = { { 'a', 'i', 'o' }, { 'm', 'g', 'o' }, { 'a', 'm', 'g' },
+	            { 'a', 'i', 'g' }, { 'm', 'i', 'o' }};
+		
+		test(triplets1, secret);
+		
+	}
+	
 	private void test(Character[][] triplets1, String secret) {
 		SecretString service = new SecretString();
 		String result = service.process(triplets1);
