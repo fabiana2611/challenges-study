@@ -6,6 +6,8 @@ public class CompanyCodilityChallenge {
 	
 	/**
 	 * Random value bigger then N, less then 10ˆ9 and ending with '0
+	 * 
+	 * Challenge 2
 	 */
 	 public int solution2(int N) {
 		 
@@ -27,6 +29,8 @@ public class CompanyCodilityChallenge {
 
 	 /**
 	  * Largest period of time with no meeting
+	  * 
+	  * Challenge 1
 	  */
 	public int solution(String S) {
 		
