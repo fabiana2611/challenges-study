@@ -2,11 +2,11 @@ package br.study.java.challenges;
 
 import junit.framework.TestCase;
 
-public class CountingElementsTest extends TestCase {
+public class MaxCounterTest extends TestCase {
 
 	public void testEmptyArray() {
 		
-		CountingElements counter = new CountingElements();
+		MaxCounter counter = new MaxCounter();
 		int[] result = counter.solution(0, null);
 		
 		assertEquals(0, result.length);
@@ -17,7 +17,7 @@ public class CountingElementsTest extends TestCase {
 		int A[] = {3, 4,4,6,1,4,4};
 		int N = 5;
 		
-		CountingElements counter = new CountingElements();
+		MaxCounter counter = new MaxCounter();
 		int[] result = counter.solution(N, A);
 		
 		int[] expected = {3, 2, 2, 4, 2};
@@ -35,7 +35,7 @@ public class CountingElementsTest extends TestCase {
 		int A[] = {3,4,4,1,4,4};
 		int N = 5;
 		
-		CountingElements counter = new CountingElements();
+		MaxCounter counter = new MaxCounter();
 		int[] result = counter.solution(N, A);
 		
 		int[] expected = {1, 0, 1, 4, 0};
@@ -53,7 +53,7 @@ public class CountingElementsTest extends TestCase {
 		int A[] = {3,4};
 		int N = 5;
 		
-		CountingElements counter = new CountingElements();
+		MaxCounter counter = new MaxCounter();
 		int[] result = counter.solution(N, A);
 		
 		int[] expected = {0, 0, 1, 1, 0};

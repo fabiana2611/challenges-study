@@ -60,7 +60,7 @@ each element of array A is an integer within the range [1..N + 1].
  * @author fabiana
  *
  */
-public class CountingElements {
+public class MaxCounter {
 	
 	int[] result;
 	int max;
