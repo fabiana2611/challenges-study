@@ -2,6 +2,15 @@ package br.study.java.challenges;
 
 import java.util.Arrays;
 
+/**
+ * Codility
+ * 
+ * returns the smallest positive integer (greater than 0) that does not occur in A.
+ * https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+ * 
+ * @author fabiana
+ *
+ */
 public class MissingInteger {
 	
 	public int solution(int[] A) {
