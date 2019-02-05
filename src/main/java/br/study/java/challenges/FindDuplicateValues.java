@@ -27,14 +27,14 @@ public class FindDuplicateValues {
         FindDuplicateValues process = new FindDuplicateValues();
 
         System.out.println("Null values: ");
-        System.out.println(process.getSuplicateValues(null, null));
+        System.out.println(process.getDuplicateValues(null, null));
 
         System.out.println("\nFull arrays: ");
         System.out.println(process.getSuplicateValues(x, y));
 
     }
 
-    private List<Integer> getSuplicateValues(int[] x, int[] y) {
+    private List<Integer> getDuplicateValues(int[] x, int[] y) {
 
         if (x == null || x.length == 0 || y == null || y.length == 0) {
             return Collections.emptyList();
