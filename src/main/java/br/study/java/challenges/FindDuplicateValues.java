@@ -1,4 +1,4 @@
-package teste;
+package br.study.java.challenges;
 
 import java.util.ArrayList;
 import java.util.Arrays;
