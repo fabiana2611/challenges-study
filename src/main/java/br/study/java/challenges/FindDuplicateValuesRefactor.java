@@ -1,4 +1,4 @@
-package teste;
+package br.study.java.challenges;
 
 import java.time.Instant;
 import java.util.ArrayList;
